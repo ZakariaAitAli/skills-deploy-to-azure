@@ -15,28 +15,31 @@ _Create two deployment workflows using GitHub Actions and Microsoft Azure._
 </header>
 
 <!--
-  <<< Author notes: Step 6 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Step 6: Production deployment
+## Finish
 
-_Nice work! :sparkle:_
+<img src=https://octodex.github.com/images/octdrey-catburn.jpg alt=celebrate width=300 align=right>
 
-Great work, you've done it! You should be able to see your container image in the **Packages** section of your account on the main repository page. You can get the deployment URL in the Actions log, just like the staging URL.
+### Congratulations, you've completed this course!
 
-### The cloud environment
+Here's a recap of all the tasks you've accomplished in your repository:
 
-Throughout the course you've spun up resources that, if left unattended, could incur billing or consume your free minutes from the cloud provider. Once you have verified your application in production, let's tear down those environments so that you can keep your minutes for more learning!
+- Trigger a job based on labels
+- Set up the Azure environment
+- Spin up environment based on labels
+- Deploy to a staging environment based on labels
+- Deploy to a production environment based on labels
+- Destroy environment based on labels
 
-### :keyboard: Activity 1: Destroy any running resources so you don't incur charges
+### What's next?
 
-1. Create and apply the `destroy environment` label to your merged `production-deployment-workflow` pull request. If you have already closed the tab with your pull request, you can open it again by clicking **Pull requests** and then clicking the **Closed** filter to view merged pull requests.
-
-Now that you've applied the proper label, let's wait for the GitHub Actions workflow to complete. When it's finished, you can confirm that your environment has been destroyed by visiting your app's URL, or by logging into the Azure portal to see it is not running.
-
-2. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+- [We'd love to hear what you thought of this course](https://github.com/skills/.github/discussions).
+- [Take another GitHub Skills Course](https://github.com/skills).
+- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
