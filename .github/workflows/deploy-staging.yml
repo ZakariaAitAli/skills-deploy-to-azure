@@ -31,9 +31,7 @@ jobs:
 
   Build-Docker-Image:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+    permissions: write-all 
     needs: build
     name: Build image and store in GitHub Container Registry
     steps:
